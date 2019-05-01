@@ -1,0 +1,49 @@
+h1 {
+    color: white;
+    background-color: blue;
+    font-style: italic;
+    font-family: 'Tangerine';
+    font-size: 40px;
+}
+h2 {
+    font-style: italic;
+    padding-left:150px;
+}
+#tata {
+    font-weight: bold;
+    padding-right: 250px;
+}
+#cts {
+    font-weight: bold;
+    padding-right: 200px;
+}
+.designation {
+    color:gray;
+    
+    font-style: italic;
+}
+.description{
+    font-style: italic;
+}
+.course {
+    font-weight: bold;
+}
+.university {
+    font-style: italic;
+}
+.v1 {
+    
+    border-right: 3px solid gray;
+    height: 120px;
+}
+.v2 {
+    
+    border-right: 3px solid gray;
+    height: 50px;
+}
+#link {
+    font-size: 15px;
+    padding-left: 475px;
+    font-style: italic;
+
+}
