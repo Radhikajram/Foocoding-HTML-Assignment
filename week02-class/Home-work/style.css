@@ -1,0 +1,42 @@
+
+section{ display: flow-root}
+h3{ font-size: 15Px;}
+img{
+  width: 100px;
+  height:150px;
+  float: left;}
+p{
+  width: 300px;
+  height: 150px;
+}
+#grid-floats{
+  justify-content: center;
+  color:black;
+ 
+}
+#grid-floats .grid-item{
+  float: left;
+  width: 30%;
+}
+#grid-floats .grid-item .img{
+   float: right;
+}
+#grid-flex{
+  display: flex;
+  color: blueviolet;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  background-color: black;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+#grid-flex .grid-item{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  order: 1;
+}
+
